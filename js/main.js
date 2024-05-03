@@ -55,7 +55,7 @@ function validarFormulario(event) {
     if (esExito) {
         $form.className = 'oculto'
         document.querySelector('#exito').className = ''
-        setTimeout(function () { //tarea: redirigir a otra pagina al pasar 5 segundos
+        setTimeout(function () { //tarea: redirigir a otra pagina al pasar 5 segundos...
             window.location.href = "wishlist.html"
         }, 5000);
 
@@ -67,7 +67,7 @@ function validarFormulario(event) {
 function manejarErrores(errores) {
     const keys = Object.keys(errores)
     const $errores = document.querySelector('#errores')
-    $errores.innerHTML = '' //tarea: arregla error que hacia que se repitan los elementos de la lista
+    $errores.innerHTML = '' //tarea: arregla error que hacia que se repitan los elementos de la lista...
     let cantidadErrores = 0
 
     keys.forEach(function (key) {
