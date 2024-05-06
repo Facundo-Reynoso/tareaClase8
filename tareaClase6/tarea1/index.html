@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 6: Tarea 1</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Grupo familiar: edades</h1>
+    <form id="formulario-1">
+        <label for="cantidad-de-miembros">Ingrese la cantidad de miembros de la familia:</label>
+        <input type="number" required id="cantidad-de-miembros" min="1">
+        <button id="btn-generar-formularios">Generar formularios para cada miembro</button>
+    </form>
+    <br>
+    <form id="formulario-2">
+        <!-- Aqui irian los formularios que le preguntan la edad a cada miembro de la familia con el boton de calcular -->
+    </form>
+    <button type="button" class="oculto" id="btn-calcular">Calcular</button>
+    <br>
+    <div id="mayor-edad">
+        <!-- Aqui iria el resultado de la mayor edad -->
+    </div>
+    <br>
+    <div id="menor-edad">
+        <!-- Aqui iria el resultado de la menor edad -->
+    </div>
+    <br>
+    <div id="edad-promedio">
+        <!-- Aqui iria el resultado de la edad promedio -->
+    </div>
+    <br>
+    <div id="reiniciar">
+        <!-- Aqui iria el boton que borra el formulario 2 y los resultados -->
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
